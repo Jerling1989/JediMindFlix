@@ -1,0 +1,99 @@
+/* LEFT SIDE DIV */
+#left-column {
+background-color: #1A1A1A;
+background-size: 100%;
+position: relative;
+height: 830px;
+text-align: center;
+}
+
+#yoda-pic {
+	width: 105%;
+	height: auto;
+	margin-left: -2.5%;
+}
+
+#title-input {
+	color: white;
+}
+
+#blue {
+ color: #1E90FF;
+}
+
+#red {
+	color: #E20404;
+}
+
+#green {
+	color: #7DFF60;
+}
+
+/* MAIN CONTENT DIV */
+#main-content {
+background-image: url("../images/lightspeed_bg.jpg");
+background-size: 100%;
+position: relative;
+height: 830px;
+text-align: center;
+}
+
+#top-row {
+	position: relative;
+	height: 15%;
+}
+
+#data-box {
+	background-color: black;
+	position: relative;
+	width: 100%;
+	height: auto;
+	border-style: solid;
+	border-color: #2A2A28;
+	border-width: 5px;
+}
+
+#default_screen {
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+
+#table_title {
+	margin-left: 4%;
+}
+
+#saber {
+	width: 4%;
+	margin-left: 4%;
+}
+
+ #plot {
+ 	text-align: left;
+}
+
+/* MISC */
+h1 {
+	font-family: 'Audiowide', cursive;
+	color: white;
+	font-size: 40px;
+}
+
+h3 {
+	color: white;
+	font-size: 35px;
+	font-family: 'Oswald', sans-serif;
+	line-height: 45px;
+}
+
+p, body {
+	color: white;
+	font-family: 'Acme', sans-serif;
+	font-size: 20px;
+}
+
+#errorImage {
+	padding-top: 20px;
+}
+
+

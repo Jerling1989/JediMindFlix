@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JEDI MIND FLIX</title>
+
+	<!-- FAVICON -->
+	<link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+	<!-- RESET CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+	<!-- MATERIALIZE CDN -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+
+	<!-- GOOGLE FONTS -->
+	<link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC|Oswald|Acme|Audiowide" rel="stylesheet">
+
+	<!-- STYLE CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<!-- JQUERY CDN -->
+	<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+
+  <!-- MOBILE RESPONSIVE -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+	<div class="row">
+
+		<div class="col m3 s3" id="left-column" >
+			<img id="yoda-pic" src="assets/images/yoda_bg.jpg">
+			<h1><span id="blue">JEDI</span><span id="red">MIND</span><span id="green">FLIX</span></h1>
+			
+			<h3>Netlix You Search...<br>Ratings You Will Find</h3>
+		  
+			<br>
+
+			<input id="title-input" class="browser-default" placeholder="Search For Title">
+			<a id="check-movie" class="waves-effect waves-light btn">SUBMIT</a>
+
+		</div>
+
+
+		<div class="col m9 s9" id="main-content">
+			<div class="row" id="top-row"></div>
+
+			<div class="row">
+				<div class="col m1 s1"></div>
+				<div class="col m10 s10"> 
+
+					<div id="data-box">
+					<img id="default_screen" src="assets/images/default.gif">
+
+					<div id=netflix></div>
+					<div id=yodaSpeak></div>
+					<div id=ratingDisplay></div>
+					
+					</div>
+
+				</div>
+				<div class="col m1 s1"></div>
+			</div>
+			
+		</div>
+
+
+	</div>
+
+
+
+<script type="text/javascript" src="assets/javascript/script.js"></script>
+</body>
+</html>
