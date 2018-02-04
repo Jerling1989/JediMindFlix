@@ -5,8 +5,11 @@ JediMindFlix is an interactive web app made for users to check whats on Netflix.
 
 ---
 
+- This is the design and layout of the app.
 ![INTRO](assets/images/read_me/intro.png)
 
+- Here is an example of a movie a user can search for on Netfilx.
 ![SEARCH](assets/images/read_me/search.png)
 
+- This is an example of what comes up if the movie the user searched for is not on Netflix. The alternative to this screen is the result if the movie's poster, synopsis, and ratings. This function is currently unavailable due to the API being used no longer being in service.
 ![RESULT](assets/images/read_me/result.png)
