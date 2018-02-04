@@ -1,3 +1,28 @@
+/* GENERAL STYLES */
+h1 {
+	font-family: 'Audiowide', cursive;
+	color: white;
+	font-size: 40px;
+}
+
+h3 {
+	color: white;
+	font-size: 35px;
+	font-family: 'Oswald', sans-serif;
+	line-height: 45px;
+}
+
+p, body {
+	color: white;
+	font-family: 'Acme', sans-serif;
+	font-size: 20px;
+}
+
+#errorImage {
+	padding-top: 20px;
+}
+
+
 /* LEFT SIDE DIV */
 #left-column {
 background-color: #1A1A1A;
@@ -28,6 +53,7 @@ text-align: center;
 #green {
 	color: #7DFF60;
 }
+
 
 /* MAIN CONTENT DIV */
 #main-content {
@@ -71,29 +97,3 @@ text-align: center;
  #plot {
  	text-align: left;
 }
-
-/* MISC */
-h1 {
-	font-family: 'Audiowide', cursive;
-	color: white;
-	font-size: 40px;
-}
-
-h3 {
-	color: white;
-	font-size: 35px;
-	font-family: 'Oswald', sans-serif;
-	line-height: 45px;
-}
-
-p, body {
-	color: white;
-	font-family: 'Acme', sans-serif;
-	font-size: 20px;
-}
-
-#errorImage {
-	padding-top: 20px;
-}
-
-
