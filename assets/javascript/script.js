@@ -1,3 +1,11 @@
+// VARIABLES TO CALCULATE HEIGHT OF CONTAINER DIVS
+var windowHeight = $(window).height();
+
+// SETTING CONTAINER HEIGHT
+$('#main-content').height(windowHeight + 'px');
+$('#left-column').height(windowHeight + 'px');
+
+
 // VARIABLES
 var yodaSummary = "";
 var summary = "";
@@ -111,7 +119,7 @@ $("#check-movie").on("click", function(event) {
 
       // CREATING AN ERROR MESSAGE
       var printError = $("<h3>").text("Watch this on Netflix, you cannot.");
-      var errorImage = "<div id=\"errorImage\"><img src=\"assets/images/fail.gif\" alt=\"Luke Skywalker screams, No!\"/></div><br>";
+      var errorImage = "<div id=\"errorImage\"><img id=\"luke-skywalker\" src=\"assets/images/fail.gif\" alt=\"Luke Skywalker screams, No!\"/></div><br>";
       printError.append(errorImage);
 
       // APPENDING THE TITLE

@@ -2,7 +2,7 @@
 h1 {
 	font-family: 'Audiowide', cursive;
 	color: white;
-	font-size: 40px;
+	font-size: 2.85vw;
 }
 
 h3 {
@@ -22,14 +22,16 @@ p, body {
 	padding-top: 20px;
 }
 
+#luke-skywalker {
+	max-width: 100%;
+}
+
 
 /* LEFT SIDE DIV */
 #left-column {
-background-color: #1A1A1A;
-background-size: 100%;
-position: relative;
-height: 830px;
-text-align: center;
+	background-color: #1A1A1A;
+	background-size: 100%;
+	text-align: center;
 }
 
 #yoda-pic {
@@ -57,11 +59,9 @@ text-align: center;
 
 /* MAIN CONTENT DIV */
 #main-content {
-background-image: url("../images/lightspeed_bg.jpg");
-background-size: 100%;
-position: relative;
-height: 830px;
-text-align: center;
+	background-image: url("../images/lightspeed_bg.jpg");
+	background-size: 100%;
+	text-align: center;
 }
 
 #top-row {
@@ -71,7 +71,6 @@ text-align: center;
 
 #data-box {
 	background-color: black;
-	position: relative;
 	width: 100%;
 	height: auto;
 	border-style: solid;
@@ -96,4 +95,22 @@ text-align: center;
 
  #plot {
  	text-align: left;
+}
+
+
+@media only screen and (max-width: 600px) {
+	h1 {
+		font-size: 10.0vw;
+	}
+
+	#main-content {
+		background-image: url();
+		background-color: #1A1A1A;
+		height: auto !important;
+		padding-bottom: 100px;
+	}
+
+	#left-column {
+		padding-bottom: 40px;
+	}
 }
