@@ -1,4 +1,8 @@
 /* GENERAL STYLES */
+body {
+	background-color: #1A1A1A;
+}
+
 h1 {
 	font-family: 'Audiowide', cursive;
 	color: white;
